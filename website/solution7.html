@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body>
+    <header class="text-gray-600 body-font">
+        <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+          <a class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
+            <a href = "x.html"><img src="code.png"  fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="10" class="w-10 h-10 text-white p-2 bg-indigo-500 rounded-full" viewBox="0 0 24 24"></a>
+              <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
+            </svg>
+            <span class="ml-3 text-xl">Code Breaker</span>
+          </a>
+          <nav class="md:ml-auto flex flex-wrap items-center text-base justify-center">
+            <a class="mr-5 hover:text-gray-900" href="hackerrank.html">Hackerrank's Solutions</a>
+            
+            
+        
+          </nav>
+         
+        </div>
+      </header>
+      <section>
+        <textarea><pre>
+            <code>
+               
+                int main() 
+                {
+                    int a, b;
+                    scanf("%d\n%d", &amp;a, &amp;b);
+                      // Complete the code.
+                      char num_name[11][6]={"one","two","three","four","five","six","seven","eight","nine","even","odd"};
+                    for(int i=a; i&lt;=b ;i++)
+                    {
+                        int num_i = i&lt;=9 ? i-1 : 9 + i % 2;
+                        printf("%s \n",num_name[num_i]);
+                    }
+                    return 0;
+                }
+            </code>
+        </pre></textarea>
+        <script src="https://cdn.tiny.cloud/1/255hn1mq0c0kauesd2u4t0yfucajhozuhi4jqweyuw5imt7w/tinymce/5/tinymce.min.js"></script>
+            <script>
+                tinymce.init({
+                    selector: 'textarea',
+                    height: 500,
+                    plugins: 'copy',
+                    toolbar: 'copy',
+                   
+                    
+                });
+            </script>
+            
+      </section>
+<footer class="text-gray-600 body-font">
+    <div class="container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col">
+      <a class="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
+        <img src = "code.png" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-10 h-10 text-white p-2 bg-indigo-500 rounded-full" viewBox="0 0 24 24">
+            <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
+          </svg>
+        <span class="ml-3 text-xl">Code Breaker</span>
+      </a>
+      <p class="text-sm text-gray-500 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-200 sm:py-2 sm:mt-0 mt-4">© 2021 Code Breaker —
+        <a href="https://twitter.com/knyttneve" class="text-gray-600 ml-1" rel="noopener noreferrer" target="_blank"></a>
+      </p>
+      <span class="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
+        <a class="text-gray-500">
+            <a href = "https://www.instagram.com/__code_breaker_/"><img src="insta.png"target="_blank"  stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+            <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
+          
+        </a>
+        
+       </a>
+      </span>
+      <a class="ml-3 text-gray-500">
+        <a href = "https://www.youtube.com/channel/UCd7No6kIDVUXU21mxfQyFGw"><img src="youtube.png"target="_blank" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+          <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"></path>
+        </svg>
+      </a>
+    </div>
+  </footer>
+    </html>
+</body>
+
+    
+  
+
+
